@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>Provides a strongly typed way of specifying and accessing settings using dependency injection.</Description>
@@ -24,10 +24,10 @@
   <ItemGroup>
     <PackageReference Include="Wodsoft.Extensions.DependencyInjection.Abstractions" Version="1.1.1" />
     <PackageReference Include="Wodsoft.Extensions.Primitives" Version="1.1.1" />
-  </ItemGroup>
-
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.0' ">
-    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

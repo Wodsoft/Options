@@ -1,9 +1,10 @@
 Options
 =============
 
-AppVeyor: [![AppVeyor](https://ci.appveyor.com/api/projects/status/7myq39529q8lrmfg/branch/dev?svg=true)](https://ci.appveyor.com/project/aspnetci/Options/branch/dev)
-
-Travis:   [![Travis](https://travis-ci.org/aspnet/Options.svg?branch=dev)](https://travis-ci.org/aspnet/Options)
+### Porting for .Net Framework 4.0 base on version 1.1.2.
+## Install package with:
+* [Wodsoft.Extensions.Options](https://www.nuget.org/packages/Wodsoft.Extensions.Options)
+* [Wodsoft.Extensions.Options.ConfigurationExtensions](https://www.nuget.org/packages/Wodsoft.Extensions.Options.ConfigurationExtensions)
 
 Options is a framework for accessing and configuring POCO settings.
 

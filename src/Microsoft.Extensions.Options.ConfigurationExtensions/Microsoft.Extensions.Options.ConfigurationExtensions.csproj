@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <Description>Provides additional configuration specific functionality related to Options.</Description>
@@ -29,6 +29,10 @@
     <PackageReference Include="Wodsoft.Extensions.Configuration.Abstractions" Version="1.1.2" />
     <PackageReference Include="Wodsoft.Extensions.Configuration.Binder" Version="1.1.2" />
     <PackageReference Include="Wodsoft.Extensions.DependencyInjection.Abstractions" Version="1.1.1" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>
