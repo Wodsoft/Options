@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>Provides a strongly typed way of specifying and accessing settings using dependency injection.</Description>
-    <VersionPrefix>1.1.2</VersionPrefix>
+    <VersionPrefix>1.1.3</VersionPrefix>
     <TargetFramework>net40</TargetFramework>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
